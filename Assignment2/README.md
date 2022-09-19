@@ -27,7 +27,7 @@
 1) See [file yourname.py](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment2/yourname.py)
 2) See [file yourname.py](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment2/yourname.py)
 3) By how many variables are in the dictionary.
-#Array Exercises
+# Array Exercises
 1) The integers are spaced further apart and are succeeded by a dot. The floats are closer together and aren't succeeded by anything. 
 2) The array displays values as strings.
 3) See [file yourname.py](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment2/yourname.py)
