@@ -1,5 +1,5 @@
 # Print Exercises
-1) Please see [file yourname.py](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment2/yourname.py)
+1) Please see [file yourname.py](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment2/yourname.py).
 2) No variables show up in the editor. 
 # Operation Exercises
 1) They are displayed in the exact same way.
