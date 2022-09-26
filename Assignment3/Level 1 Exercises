@@ -1,0 +1,93 @@
+#Variable Operations Exercises
+#1.
+sub_code = "sub"
+subnr_int = 2
+subnr_str = "2"
+
+print(sub_code + subnr_str)
+#You can only link a string to a string 
+#2.
+print(sub_code + " " + subnr_str)
+print(sub_code + " " +(subnr_str * 3))
+print((sub_code + subnr_str) * 3)
+print(sub_code * 3 + subnr_str * 3)
+
+#List of Operations Exercises
+#1.
+numlist = [1, 2, 3]
+print(numlist * 2)
+#2. 
+import numpy as np
+numarr = np.array ([1, 2, 3])
+print(numarr * 2)
+#It multiplies the numbers inside of the array instead of repeating 
+#repeating the same set of number twice as is done inisde of lists.
+#3. 
+strlist = ['do', 're', 'mi', 'fa']
+print([strlist[0] * 2, strlist[1] * 2, strlist[2] * 2, strlist[3] * 2])
+print(strlist * 2)
+print([strlist[0], strlist[0], 
+       strlist[1], strlist[1],
+       strlist[2], strlist[2],
+       strlist[3], strlist[3]
+       ])
+print([
+       [strlist[0], strlist[0]], 
+       [strlist[1], strlist[1]],
+       [strlist[2], strlist[2]],
+       [strlist[3], strlist[3]]
+      ])
+
+#Zipping Exercises 
+import numpy as np
+ 
+first_item = []
+second_item = []
+
+imgs_f = ['face1.png'] * 5 + ['face2.png'] * 5 + ['face3.png'] * 5 + ['face4.png'] * 5 + ['face5.png'] * 5
+imgs_h = ['house1.png'] * 5 + ['house2.png'] * 5 + ['house3.png'] * 5 + ['house4.png'] * 5 + ['house5.png']  * 5
+
+first_item.extend(imgs_f)
+first_item.extend(imgs_h)
+first_item.extend(imgs_f)
+first_item.extend(imgs_h)
+
+imgs_fs = ['face1.png', 'face2.png', 'face3.png', 'face4.png', 'face5.png'] * 5
+imgs_hs = ['house1.png', 'house2.png', 'house3.png', 'house4.png', 'house5.png']  * 5
+
+second_item.extend(imgs_hs)
+second_item.extend(imgs_fs)
+second_item.extend(imgs_hs)
+second_item.extend(imgs_fs)
+
+cues = ['cue1'] * 50 + ['cue2'] * 50
+catimgs = list(zip(first_item, second_item, cues))
+print(catimgs)
+
+np.random.shuffle(catimgs)
+print(catimgs)
+
+#Indexing Exercises
+#1.
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
+print(colors[4])
+#2.
+print(colors[-2][2])
+print(colors[-2][3])
+#3.
+colors[5] = 'indigo'
+colors.append('violet')
+print(colors)
+
+#Slicing Exercises
+#1. 
+list100 = list(range(101))
+print(list100)
+#2.
+print(list100[:10])
+#3.
+temp = list100[1::2]
+print(temp[::-1])
+#4.
+print(list100[39:44])
+print(list100[39:44] == [39, 40, 41, 42, 43])
