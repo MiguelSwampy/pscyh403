@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Sep 19 17:08:03 2022
+
+@author: M
+"""
 #Variable Operations Exercises
 #1.
 sub_code = "sub"
@@ -20,8 +26,8 @@ print(numlist * 2)
 import numpy as np
 numarr = np.array ([1, 2, 3])
 print(numarr * 2)
-#It multiplies the numbers inside of the array instead of repeating 
-#repeating the same set of number twice as is done inisde of lists.
+#It multiplies the numbers inside of the array instead of  
+#repeating the same set of numbers twice as is done inisde of lists.
 #3. 
 strlist = ['do', 're', 'mi', 'fa']
 print([strlist[0] * 2, strlist[1] * 2, strlist[2] * 2, strlist[3] * 2])
@@ -70,11 +76,12 @@ print(catimgs)
 #Indexing Exercises
 #1.
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
-print(colors[4])
 #2.
+print(colors[4])
+#3.
 print(colors[-2][2])
 print(colors[-2][3])
-#3.
+#4.
 colors[5] = 'indigo'
 colors.append('violet')
 print(colors)
