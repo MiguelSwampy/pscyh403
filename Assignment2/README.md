@@ -24,8 +24,8 @@
 5) Please see [file yourname.py](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment2/yourname.py)
 6) Yes.
 # Dictionary Exercises
-1) Please see[file yourname.py](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment2/yourname.py)
-2) Please see[file yourname.py](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment2/yourname.py)
+1) Please see [file yourname.py](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment2/yourname.py)
+2) Please see [file yourname.py](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment2/yourname.py)
 3) By how many variables are in the dictionary.
 # Array Exercises
 1) The integers are spaced further apart and are succeeded by a dot. The floats are closer together and aren't succeeded by anything. 
