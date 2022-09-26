@@ -16,7 +16,6 @@
 1) Yes, they're the exact same value even though ine is in decimal form.
 2) Yes.
 3) Please see [file yourname.py](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment2/yourname.py).
-#List Ecercises 
 1) Yes.
 2) No issues.
 3) Outputs "5".
