@@ -1,0 +1,85 @@
+#Conditionals and Loops
+#1. 
+
+resp = input('Please enter your response: ')
+
+if resp == '1' or resp == '2':
+    print('OK')
+elif resp == 'NaN':
+    print('subject did not respond')
+else: print ('subject pressed the wrong key')
+#2. 
+resp2 = input("Please enter your response: ")
+if resp2 == 'Nan':
+    print('subject did not respond')
+else:
+    if resp2 == '1':
+        print('Correct!')
+    elif resp2 == '2':
+        print('Incorrect!')
+#3.
+# Yes
+
+#For Loop Exercises
+#1.
+name = ['M', 'i', 'g', 'u', 'e', 'l']
+
+for letter in name:
+    print(letter)
+#2.
+count = -1
+for letter in name:
+    count = count + 1
+    
+    print(letter + "[%i]" %count)
+#3. 
+nmslist = ['Amy', 'Rory', 'River']
+
+for nms in nmslist:
+    print(nms)
+    for letter in nms:
+        print(letter)
+#4.
+for nms in nmslist:
+    print(nms)
+    letterCounter = -1
+    for letter in nms:
+        letterCounter = letterCounter + 1
+        print(letter, letterCounter)
+
+#While Loop Exercises
+#1. 
+iteration = 0
+
+while iteration <= 20:
+    if iteration < 10:
+        print('%i, image1.png' %iteration)
+    elif iteration <= 20:
+        print('%i, image2.png' %iteration)
+    iteration = iteration + 1
+#2. 
+import random
+response = ''
+looping = True 
+
+while looping:
+    response = random.randint(0,10)
+    print(response)
+    print('This is an image')
+    
+    if response == 1 or response == 2:
+        looping = False 
+
+#3.
+import random
+response = ''
+looping = True 
+failsafe = 0
+
+while looping:
+    response = random.randint(0,10)
+    print(response)
+    print('This is an image')
+    failsafe = failsafe + 1
+    if response == 1 or response == 2 or failsafe ==5:
+        looping = False 
