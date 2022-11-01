@@ -5,4 +5,4 @@ Please see [Level 4 Exercises](https://github.com/MiguelSwampy/pscyh403/blob/mai
 2. can change the color using various values (RGB, HSV, DKL, etc.), including by color name.
 3. Please see [Level 4 Exercises](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment6/Level%204%20Exercises).
 ## Stimulus Exercises
-[Level 4 Exercises](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment6/Level%204%20Exercises).
+Please see [Level 4 Exercises](https://github.com/MiguelSwampy/pscyh403/blob/main/Assignment6/Level%204%20Exercises).
