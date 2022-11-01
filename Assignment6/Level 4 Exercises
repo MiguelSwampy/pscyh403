@@ -113,7 +113,7 @@ for block in range(nBlocks):
         my_text.text = endtr_msg + ' ' + str(trial)
         my_text.draw()
         win.flip()
-        event.waitKeys())
+        event.waitKeys()
         
 #======================
 # END OF EXPERIMENT
