@@ -2,6 +2,7 @@ from psychopy import gui
 from psychopy import core
 from psychopy import visual, monitors
 from datetime import datetime
+import numpy as np
 import os
 
 #Dialog Box Exercises
