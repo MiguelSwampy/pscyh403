@@ -1,4 +1,4 @@
-from psychopy import gui, core, visual, monitors
+from psychopy import gui, core, visual, monitors, event
 from datetime import datetime
 import numpy as np
 import os
